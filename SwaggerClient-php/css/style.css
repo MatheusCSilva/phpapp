@@ -1,0 +1,69 @@
+.contain{
+    padding: 20px !important;
+    margin: none !important;
+}
+
+.insideCol{
+    height: 290px;
+    border: 1px solid red;
+    padding: 30px;
+
+}
+
+.insideList{
+    height: 100%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th#idlist{
+  width: 5%;
+}
+
+td#butedit{
+  padding: 5px;
+  text-align: center;
+  width: 5%;
+  background-color: white;
+}
+
+td#butedit input[type=submit]{
+  padding: 5px !important;
+  padding-top: 15px !important;
+}
+
+td#butedit input[type=submit]:hover{
+  padding: 5px !important;
+  padding-top: 5px !important;
+  color: white !important;
+}
+
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+table#t01 th {
+    background-color: rgb(187, 29, 29);
+    color: white;
+  }
+
