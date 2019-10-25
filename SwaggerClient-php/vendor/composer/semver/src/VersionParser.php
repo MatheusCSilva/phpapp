@@ -404,7 +404,7 @@ class VersionParser
             $lowVersion = $this->manipulateVersionString($matches, $position) . '-dev';
             $highVersion = $this->manipulateVersionString($matches, $position, 1) . '-dev';
 
-            if ($lowVersion === '0.0.0.0-dev') {
+            if ($lowVersion === 'localhost-dev') {
                 return array(new Constraint('<', $highVersion));
             }
 

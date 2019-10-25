@@ -1,10 +1,6 @@
-FROM ubuntu
+FROM php:7.2-apache
 
-ONBUILD COPY . /home/php-client_Matheus/php-client2/SwaggerClient-php
+#Copy Application Sources
+COPY . /var/www/html/
 
-# tell the port number the container should expose
-EXPOSE 5000
-
-# 
-CMD [ "MAAAAAAAATTTT"]
 
